@@ -8,7 +8,7 @@ async def get_shortlink(link):
     if "http" == https:
         https = "https"
         link = link.replace("http", https)
-    url = f'https://{SHORTENER_SITE}/api'
+    url = f'https://tnlink.in/52485ddd93ca298fd075e8979a5889721ca48f75'
     params = {'api': SHORTENER_API,
               'url': link,
               }
